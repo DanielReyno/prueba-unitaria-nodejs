@@ -11,7 +11,7 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latestS
+    runs-on: ubuntu-latest
     timeout-minutes: 10  # Set an appropriate timeout
     
     steps:
