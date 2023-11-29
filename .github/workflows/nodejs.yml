@@ -3,7 +3,7 @@ name: Node.js CI
 on:
   push:
     branches:
-      - '*'   #Ejecutar en todas las ramas
+      - '*'   #Ejecutar en todas las ramas testing
 
   pull_request:
     branches:
@@ -11,7 +11,7 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-latestS
     timeout-minutes: 10  # Set an appropriate timeout
     
     steps:
