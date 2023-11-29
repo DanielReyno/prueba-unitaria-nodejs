@@ -3,7 +3,7 @@ name: Node.js CI
 on:
   push:
     branches:
-      - '*'
+      - '*'   #Ejecutar en todas las ramas testing
     
   pull_request:
     branches:
